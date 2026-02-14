@@ -1,0 +1,140 @@
+body{
+    margin: auto;
+    background-image: url(Poz.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #d10808;
+    padding: 24px;
+}
+
+/* Body ovo glavno sve nekaj altera*/
+
+.glavno{
+    width: min(720px, 100%);
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 28px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.11);
+    border-top: 10px solid #ff0000;;
+    position: relative;
+    margin-bottom: 18px;
+
+}
+
+/* Ovo je bela kutija oko malih divica */
+
+.gore-ono{
+    text-align: center;
+    margin: 30px;
+}
+
+/* Ovo je gore kaj pise da sam karlu napisa */
+
+h1{
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+/* Ovo kontrolira header 1ove */
+
+h2{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color:white;
+    text-transform: uppercase;
+
+}
+
+/* Ovo kontrolira keader 2ice */
+
+.text{
+    text-align: left;
+    margin-left: 45px;
+    margin: auto
+
+}
+
+/* Ovo kontrolira sve oznaceno klasom "text" */
+
+.text2{
+    color: white;
+}
+
+/* Ovo kontrolira sve oznaceno klasom "text2" */
+
+.text3{
+    color: white;
+    margin: auto;
+    letter-spacing: 1.7;
+    line-height: 35px;
+}
+
+/* Ovo kontrolira sve oznaceno klasom "text3" */
+
+.blok-boja{
+    width: min(670px, 100%);
+    height: 86px;
+    background-color:cornflowerblue;
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.11);
+    border: 3px solid #ff00009c;
+    margin-bottom: 18px;
+}
+
+/* Ovo je za prvi div*/
+
+.blok-gradient{
+    width: min(670px, 100%);
+    height: 86px;
+    background: linear-gradient(90deg, #71002d, cornflowerblue);
+    padding: 15px;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.11);
+    border: 3px solid #ff00009c;
+    margin-bottom: 18px;
+}
+
+/* Ovo je za drugi div s gradientom*/
+
+.blok-slika{
+    width: min(670px, 100%);
+    height: 86px;
+    background-image: url("Pozadina.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 18px;
+    padding: 15px;
+    border: 3px solid #ff00009c;
+}
+
+/* Ovo je za treci div s slikicom :P*/
+
+.overley{
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 15px;
+    border-radius: 18px;
+    height: 58px;
+}
+
+/* Ovo je overlay za treci div ta razdvoji text od slike da da bude da da se da vidi*/
+
+p{
+    color: rgb(0, 0, 0);
+    padding-bottom: 12px;
+    font-size: 18px;
+}
+
+/* Burke ovo kontrolise paragrafe burke 😎*/
+
+.potpis{
+    text-align: right;
+  margin-top: 12px;
+  font-style: italic;
+  color: #888888;
+}
+
+/* Ono dole nekaj nez*/
