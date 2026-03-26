@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(90deg, rgb(27, 27, 27), rgb(146, 146, 146));
+    padding: 20px;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    color: azure;
+    text-align: center;
+    font-size: 35px;
+}
+.glavnakocka{
+    border: 2px solid rgb(180, 0, 0);
+    padding: 10px;
+    margin: auto;
+}
