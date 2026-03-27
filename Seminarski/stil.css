@@ -1,5 +1,7 @@
 body{
-    background: linear-gradient(90deg, rgb(27, 27, 27), rgb(146, 146, 146));
+    background-image: url(Poz.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     padding: 20px;
     margin: auto;
     font-family:'Times New Roman', Times, serif;
@@ -8,10 +10,56 @@ body{
 h1{
     color: azure;
     text-align: center;
-    font-size: 35px;
+    font-size: 38px;
 }
-.glavnakocka{
-    border: 2px solid rgb(180, 0, 0);
+
+h2{
+    color: azure;
+    text-align: center;
+    font-size: 19px;
+}
+
+.crtica{
+    width: 480px;
+    border: 1px black solid;
+}
+
+.sliketina{
+    margin: 0 auto;
+    display: block;
     padding: 10px;
-    margin: auto;
+}
+.overlay{
+    width: 1300px;
+    max-width: 1300px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(138, 138, 138, 0.332);
+    border: 3px solid rgba(0, 0, 0, 0.636);
+    color: white;
+    border-radius: 4px;
+}
+
+.lilnigga{
+    width: 500px;
+    height: 115px;
+    background-color: rgba(114, 114, 114, 0.29);
+    margin: 0 auto;
+    border-top: black 3px solid;
+    border-left: darkgrey 2px solid;
+    border-right: darkgrey 2px solid;
+    border-bottom: darkgrey 2px solid;
+    text-align: center;
+}
+
+.teto{
+    display: flex;
+    margin: 0 auto;
+}
+
+.tome{
+    background-color: red;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
 }
