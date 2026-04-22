@@ -34,7 +34,7 @@ h2{
     max-width: 1300px;
     padding: 10px;
     margin: 0 auto;
-    background-color: rgba(138, 138, 138, 0.332);
+    background-color: rgba(67, 67, 67, 0.31);
     border: 3px solid rgba(0, 0, 0, 0.636);
     color: white;
     border-radius: 4px;
@@ -58,8 +58,9 @@ h2{
 }
 
 .tome{
-    background-color: red;
+    background-color: rgba(86, 86, 86, 0.249);
     max-width: 300px;
     margin: 0 auto;
     padding: 10px;
+    border: solid black 2px;
 }
