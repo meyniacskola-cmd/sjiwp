@@ -6,24 +6,22 @@ body{
     margin: auto;
     font-family:'Times New Roman', Times, serif;
 }
-
 h1{
     color: azure;
     text-align: center;
     font-size: 38px;
 }
-
 h2{
     color: rgb(225, 184, 0);
     text-align: center;
     font-size: 19px;
 }
-
 .crtica{
     width: 480px;
     border: 1px black solid;
 }
 
+/*za slike paradajz*/
 .sliketina{
     margin: 0 auto;
     display: block;
@@ -33,6 +31,16 @@ h2{
     background-color: rgba(255, 0, 0, 0.11);
     border-radius: 40px;
 }
+.okvirliketinurine{
+  width: 49%;
+}
+.sliketinurina{
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 3px solid gold;
+}
+
 .overlay{
     width: 1300px;
     max-width: 1300px;
@@ -54,13 +62,13 @@ h2{
     border-right: darkgrey 2px solid;
     border-bottom: darkgrey 2px solid;
     text-align: center;
+  
 }
 
 .teto{
     display: flex;
     margin: 0 auto;
 }
-
 .tome{
     background-color: rgba(86, 86, 86, 0.249);
     max-width: 300px;
@@ -70,110 +78,99 @@ h2{
     border: solid black 2px;
 }
 
+/*daj me zakolji (biralica) isusee emanuel ti slusas my chemical romancee*/
 .biralica{
-    margin: 0 auto;
-    width: 530px;
-    border: 3px solid rgba(0, 0, 0, 0.636);
-    flex-wrap: wrap;
-    margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  transform: skewX(-14deg)
 }   
-ul li {
-  float: left;
+.tobi{
+  background-color: rgba(20, 20, 19, 0.78);
+  border-top: 2px solid gold;
+  border-bottom: 2px solid gold;
+  width: 80%
 }
-ul{
-  list-style-type: none;
+.tobi ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  justify-content: space-between;
-  display: flex;
 }
-ul li a {
-  display: block;
-  color: rgb(225, 184, 0);
-  text-align: center;
-  padding: 14px 16px;
-}
-ul li a:hover {
-  background-color: #111111;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav {
-  min-width: 700px;
-  width: 100%;
-}
-
-.nav--list {
-  width: 100%;
-  height: 100px;
-  margin: auto 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.item,
-.item--wrapper {
-  height: 50px;
-  width: 120px;
-  margin: 1px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  transform-origin: top center;
-  transform: translateY(0px) rotateX(0deg);
-  transition: transform 300ms linear;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-
-.item--wrapper::before,
-.item--wrapper::after {
-  content: attr(data-item);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 1px 1px 1px #666;
-  color: #ffffff;
-  font-size: 18px;
-  text-transform: uppercase;
+.tobi a {
+  color: gold;
+  display: inline-block;
+  text-decoration: none; /*AHA AK OV DENE ONDA NEMA ONIH CRTA ZMOTANIH ISPOD LINKOVA E*/
+  font-size: 1.1rem;
   letter-spacing: 2px;
-  transform: translateY(0px) rotateX(0deg);
-  transform-style: preserve-3d;
-  transition: transform 300ms linear;
-  background: #1d4289;
+  transition: all 0.2s ease-out;
+}
+.tobi a:hover {
+  color: white;
+  text-shadow: 0 0 8px gold;
+  transform: scale(1.15); 
+}
+.tobi li {
+  display: inline; /*ovo tocke mekne nekim cudom*/
 }
 
-.item--wrapper::before {
-  background: #000;
-  color: #00bfb2;
-  transform-origin: bottom center;
-  transform: translateY(-50px) rotateX(-90deg);
+
+.sigmalica{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
 }
 
-.item:hover .item--wrapper {
-  transform: translateY(50px) rotateX(90deg);
+.diralica{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    background-color: rgba(255, 0, 0, 0);
+    width: 49%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*ovo sam skopiral od negde jer neam pojma kak drugac poredat da budu 2x2 v divu*/
+    gap: 20px; /* ZAKAJ NAM ZA GAP NISTE REKLI OVO JE BRUTALNO, MORTI SAM SPEC I JESTE AL MISLIM DA NISTE!!!!!*/
+}
+
+.ribalica{
+    background-color: rgba(86, 86, 86, 0.249);
+    max-width: 200px;
+    height: flex;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    }
+
+/*neka crna magija zbog koje biralica nekak dela*/
+/*zanemari ovo gore onak 28 linija koda sam zbrisal jeeeeeeebote */
+
+/*on dole TUFF quote mesto*/
+.quote-sekcija {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.quote-okvirić {
+  background-color: rgba(20, 20, 20, 0.7);
+  border-left: 5px solid gold;
+  border-right: 3px solid gold;
+  padding: 20px 50px;
+  transform: skewX(-10deg); /*ovo priznam da sam zel od nekud al TAKO JE TUFF*/
+
+}
+.quote-tekstić {
+  color: white;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0;
+}
+.quote-autorić {
+  color: gold;
+  text-align: right;
+  font-weight: bold; /*znate kak sam ponosni kaj sam se setil da bold postoji*/
 }
