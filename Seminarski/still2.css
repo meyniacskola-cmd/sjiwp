@@ -6,7 +6,6 @@ body{
     margin: auto;
     font-family:'Times New Roman', Times, serif;
 }
-
 .overlay{
     width: 1300px;
     max-width: 1300px;
@@ -41,7 +40,22 @@ h2{
     border-right: darkgrey 2px solid;
     border-bottom: darkgrey 2px solid;
     text-align: center;
-  
+}
+
+.slik{
+    margin: 0 auto;
+    display: block;
+    width: 80%px;
+    height: 399px;
+    border: 3px solid gold;
+}
+.slik:hover {
+  transform: scale(1.02); 
+  transition: all 0.2s ease-in-out;
+}
+
+.biralica:hover {
+  transform: skewX(-20deg) scale(1.05); 
 }
 
 .biralica{
@@ -50,7 +64,8 @@ h2{
   justify-content: center;
   margin-bottom: 30px;
   padding-top: 40px;
-  transform: skewX(-14deg)
+  transform: skewX(-14deg);
+  transition: transform 0.3s ease;
 }   
 .tobi{
   background-color: rgba(20, 20, 19, 0.78);

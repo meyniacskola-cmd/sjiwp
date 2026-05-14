@@ -29,7 +29,7 @@ h2{
     padding: 10px;
     width: 180px;
     height: 180px;
-    background-color: rgba(255, 0, 0, 0.11);
+    background-color: rgba(255, 0, 0, 0.047);
     border-radius: 40px;
 }
 .okvirliketinurine{
@@ -86,8 +86,12 @@ h2{
   justify-content: center;
   margin-bottom: 30px;
   padding-top: 40px;
-  transform: skewX(-14deg)
-}   
+  transform: skewX(-14deg);
+  transition: transform 0.3s ease;
+}
+.biralica:hover {
+  transform: skewX(-20deg) scale(1.05); 
+}
 .tobi{
   background-color: rgba(20, 20, 19, 0.78);
   border-top: 2px solid gold;
