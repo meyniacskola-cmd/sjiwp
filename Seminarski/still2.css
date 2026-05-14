@@ -1,0 +1,82 @@
+body{
+    background-image: url(Poz2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.overlay{
+    width: 1300px;
+    max-width: 1300px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(67, 67, 67, 0.31);
+    border: 3px solid rgba(0, 0, 0, 0.636);
+    color: white;
+    border-radius: 4px;
+}
+h1{
+    color: azure;
+    text-align: center;
+    font-size: 38px;
+}
+h2{
+    color: rgb(225, 184, 0);
+    text-align: center;
+    font-size: 19px;
+}
+.crtica{
+    width: 480px;
+    border: 1px black solid;
+}
+.lilnigga{
+    width: 500px;
+    height: 115px;
+    background-color: rgba(114, 114, 114, 0.29);
+    margin: 0 auto;
+    border-top: black 3px solid;
+    border-left: darkgrey 2px solid;
+    border-right: darkgrey 2px solid;
+    border-bottom: darkgrey 2px solid;
+    text-align: center;
+  
+}
+
+.biralica{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  transform: skewX(-14deg)
+}   
+.tobi{
+  background-color: rgba(20, 20, 19, 0.78);
+  border-top: 2px solid gold;
+  border-bottom: 2px solid gold;
+  width: 80%
+}
+.tobi ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0;
+}
+.tobi a {
+  color: gold;
+  display: inline-block;
+  text-decoration: none; /*AHA AK OV DENE ONDA NEMA ONIH CRTA ZMOTANIH ISPOD LINKOVA E*/
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-out;
+}
+.tobi a:hover {
+  color: white;
+  text-shadow: 0 0 8px gold;
+  transform: scale(1.15); 
+}
+.tobi li {
+  display: inline; /*ovo tocke mekne nekim cudom*/
+}
