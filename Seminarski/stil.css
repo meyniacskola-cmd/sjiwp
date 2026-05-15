@@ -40,6 +40,11 @@ h2{
   height: auto;
   display: block;
   border: 3px solid gold;
+  transition: transform 0.3s ease;
+}
+.sliketinurina:hover {
+  transform: scale(1.02); 
+  transition: all 0.2s ease;
 }
 
 .overlay{

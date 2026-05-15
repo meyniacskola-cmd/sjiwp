@@ -15,6 +15,7 @@ body{
     border: 3px solid rgba(0, 0, 0, 0.636);
     color: white;
     border-radius: 4px;
+    align-items: center;
 }
 h1{
     color: azure;
@@ -42,22 +43,24 @@ h2{
     text-align: center;
 }
 
+
 .slik{
     margin: 0 auto;
     display: block;
     width: 80%px;
     height: 399px;
     border: 3px solid gold;
+    transition: transform 0.3s ease;
 }
 .slik:hover {
   transform: scale(1.02); 
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
 }
+
 
 .biralica:hover {
-  transform: skewX(-20deg) scale(1.05); 
+  transform: skewX(-20deg) scale(1.05); /*jer je pgoram pametni pa kad bi stel da animnacija bude lepo zjEBE CELI DIV I MORAM OVO ISKAT PO GUGLU 9 MINUT*/
 }
-
 .biralica{
   width: 100%;
   display: flex;
@@ -94,4 +97,107 @@ h2{
 }
 .tobi li {
   display: inline; /*ovo tocke mekne nekim cudom*/
+}
+
+
+.okvir{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.okvirići{
+    background-color: rgba(86, 86, 86, 0.249);
+    max-width: 370px;
+    height: flex;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+.nekivrag{
+  color: gold;
+  background-color: rgba(20, 20, 20, 0.9);
+  border-left: 5px solid gold;
+  border-right: 3px solid gold;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 50px auto;
+  width: 64%;
+  transform: skewX(-10deg);
+}
+
+
+.h22{
+  font-size: 30px;
+  padding-left: 35px;
+  margin: 0;
+}
+.h11{
+  font-size: 17px;
+  padding-left: 30px;
+}
+.sinnah{
+  height: 215px;
+  width: 215px;
+  padding: 5px;
+  flex-shrink: 0;
+}
+.okvirprdonja{
+  display: flex;
+  padding: 15px;
+  border-left: 5px solid gold;
+  width: 90%;
+  height: 220px;
+  background-color: rgba(86, 86, 86, 0.249);
+  transition: transform 0.3s ease;
+  margin: 20px auto;
+  gap: 20px;
+  
+}
+.okvirprdonja:hover {
+  transform: scale(1.02); 
+  transition: all 0.2s ease;
+}
+.omot{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  text-align: left; 
+  gap: 5px; 
+  margin-left: 16px; 
+  background-color: rgba(20, 20, 20, 0.6);
+  padding-top: 18px;
+  border-top: 3px solid gold;
+}
+.oruze{
+  margin-left: auto; 
+  margin-right: 30px; 
+  padding: 40px 14px;
+  background-color: rgba(20, 20, 20, 0.6); 
+  border-right: 3px solid gold; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 5px; 
+  width: 170px;
+  display: flex;
+  justify-content: center;
+}
+.oruz-naslov {
+  color: gold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 2px;
+  padding-left: 54px;
+}
+.oruz-ime {
+  display: block;
+  color: gold;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+    padding-left: 27px;
 }
