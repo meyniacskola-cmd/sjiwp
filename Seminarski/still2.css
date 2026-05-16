@@ -159,6 +159,7 @@ h2{
 .okvirprdonja:hover {
   transform: scale(1.02); 
   transition: all 0.2s ease;
+  background-color: rgba(40, 40, 40, 0.741);
 }
 .omot{
   display: flex;
