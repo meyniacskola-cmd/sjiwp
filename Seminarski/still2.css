@@ -126,6 +126,7 @@ h2{
   margin: 50px auto;
   width: 64%;
   transform: skewX(-10deg);
+  letter-spacing: 2px;
 }
 
 
