@@ -32,23 +32,29 @@ h2{
     background-color: rgba(255, 0, 0, 0.047);
     border-radius: 40px;
 }
-.okvirliketinurine{
+.okvirliketinurine{ 
   width: 49%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ align-items: center;    
+  justify-content: center;
 }
 .sliketinurina{
   width: 100%;
+  max-width: 630px;
   height: auto;
   display: block;
   border: 3px solid gold;
   transition: transform 0.3s ease;
 }
 .sliketinurina:hover {
-  transform: scale(1.02); 
+  transform: scale(1.05); 
   transition: all 0.2s ease;
+      filter: drop-shadow(0 0 15px gold);
 }
 
 .overlay{
-    width: 1300px;
     max-width: 1300px;
     padding: 10px;
     margin: 0 auto;
@@ -171,7 +177,14 @@ h2{
   border-right: 3px solid gold;
   padding: 20px 50px;
   transform: skewX(-10deg); /*ovo priznam da sam zel od nekud al TAKO JE TUFF*/
-
+  transition: all 0.8s ease;
+}
+.quote-okvirić:hover {
+  text-shadow: 0 0 8px rgb(255, 255, 255);
+  transform: skewX(-10deg);
+  transition: all 0.8s ease;
+  filter: drop-shadow(0 0 5px rgb(255, 0, 0));
+  
 }
 .quote-tekstić {
   color: white;
@@ -183,4 +196,167 @@ h2{
   color: gold;
   text-align: right;
   font-weight: bold; /*znate kak sam ponosni kaj sam se setil da bold postoji*/
+}
+
+
+
+.sigmalica2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+ padding-top: 1px;
+}
+.diralica2{
+  display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: rgba(255, 0, 0, 0);
+    width: 49%;
+    align-items: center;
+}
+.ribalica2{
+    background-color: rgba(86, 86, 86, 0.249);
+    width: 400px;
+    height: flex;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 30px;
+    }
+.sliketinurina2{
+  width: 100%;
+  display: block;
+  max-width: 750px;
+  height: auto;
+  border: 3px solid gold;
+  transition: transform 0.3s ease;
+  justify-content: space-around;
+  margin-right: 0;
+  margin-left: auto;
+}
+.sliketinurina2:hover {
+  transform: scale(1.05); 
+  transition: all 0.2s ease;
+    filter: drop-shadow(0 0 15px gold);
+}
+.okvirliketinurine2{ 
+  width: 49%;
+  display: flex;
+}
+
+.crtuh4{
+    width: 74%;
+    height: 1px;
+    color: gold;
+    margin: 0 auto;
+    border-top: 4px solid rgb(243, 232, 0);
+    border-bottom: 4px solid rgb(235, 78, 0);
+    margin-top: 44px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 6px white;
+}
+
+
+@media screen and (max-width: 768px) {
+    .overlay {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 0;
+        border-radius: 0;
+    }
+    .lilnigga {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .crtica {
+        width: 80%;
+    }
+    .teto {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    .tome {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+
+
+    .biralica {
+        transform: none;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .tobi {
+        width: 100%;
+    }
+    .tobi ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+
+    .sigmalica {
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .diralica {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .ribalica {
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .sigmalica2 {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+
+    .diralica2 {
+        width: 100%;
+        align-items: center;
+    }
+    .ribalica2 {
+        width: 100%;
+        max-width: 100%;
+        margin: 15px 0;
+        box-sizing: border-box;
+    }
+
+    .okvirliketinurine, .okvirliketinurine2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sliketinurina, .sliketinurina2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    
+    .quote-okvirić {
+        transform: none;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
