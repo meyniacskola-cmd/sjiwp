@@ -230,7 +230,7 @@ h2{
   max-width: 750px;
   height: auto;
   border: 3px solid gold;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
   justify-content: space-around;
   margin-right: 0;
   margin-left: auto;

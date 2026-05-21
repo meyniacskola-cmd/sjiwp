@@ -32,6 +32,14 @@ h2{
     text-align: center;
     font-size: 20px;
 }
+.h22{
+     color: azure;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.6), 0 0 10px rgba(212, 175, 55, 0.4);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
 h3{
     color: rgb(255, 255, 255);
     font-size: 17px;
@@ -139,29 +147,236 @@ h3{
     border-right: 3px solid gold;
 }
 
+.gifgifholder{
+    border: 2px solid black;
+    margin: 30px;
+    padding-top: 30px;
+}
 .gifholder{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px; 
   flex-wrap: nowrap;
-  width: 80%;
+  width: 100%;
+  padding-bottom: 30px;
 }
 .gifac{
     margin-top: 69px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    border: 3px solid gold;
+    border-right: 3px solid gold;
+    border-bottom: 3px solid gold;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
     max-width: 500px;
+    object-fit: cover;
+        width: 500px;
+    height: 270px;
+}
+.gifac1{
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-left: 3px solid gold;
+    border-bottom: 3px solid gold;
+     border-right: 3px solid black;
+    border-top: 3px solid black;
+    max-width: 500px;
+    object-fit: cover;
+        width: 500px;
+    height: 270px;
 }
 .gifac2{
     margin-top: 69px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    border: 3px outset gold;
-    max-width: 300px;
-    max-height: 400px;
+    border-top: 3px solid gold;
+    border-right: 3px solid gold;
+     border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    max-width: 500px;
+    object-fit: cover;
+        width: 500px;
+    height: 270px;
+}
+.gifac3{
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 3px solid gold;
+    border-left: 3px solid gold;
+     border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    width: 500px;
+    height: 270px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+.gifholder img{
+    transition: all 0.3s ease;
+}
+.gifholder img:hover{
+    border: 3px solid gold;
+    transition: all 0.3s ease;
+        filter: drop-shadow(0 0 15px gold);
+}
+.nekivrag{
+  color: gold;
+  background-color: rgba(20, 20, 20, 0.9);
+  border-left: 5px solid orange;
+  border-right: 3px solid orange;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 50px auto;
+  width: 64%;
+  transform: skewX(-10deg);
+  letter-spacing: 2px;
+}
+
+
+.veliki{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: flex;
+    gap: 30px;
+}
+.levi{
+    margin-right: 0;
+    flex: 1;
+    background-color: rgba(20, 20, 20, 0.7);
+    padding-bottom: 22px;
+    border-radius: 4px;
+    border: 2px solid rgba(255, 217, 0, 0.586);
+}
+.desni{
+    background-color: rgba(20, 20, 20, 0.7);
+    margin-right: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 4px;
+    border: 2px solid rgba(255, 217, 0, 0.586);
+}
+.desni .okvir{
+    align-items: flex-end; /*ovo mi je 4 godine trebalo da skuzim koji KURAC DELA*/ 
+}
+.okvir {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.desni .h2naslovi{
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+.h2naslovi{
+    text-align: center;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.6), 0 0 10px rgba(212, 175, 55, 0.4);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.okvirići3{
+    width: 440px;
+    height: auto;
+    margin: -22px 20px ; /*JE NO DA POSTOJI NEGATIVNE MARGINE KJAAAJ*/
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 2px;
+    border-left: 3px solid gold;
+}
+.okvirići4{
+    width: 520px;
+    height: auto;
+    margin: -22px 20px ; /*JE NO DA POSTOJI NEGATIVNE MARGINE KJAAAJ*/
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 2px;
+    border-left: 3px solid gold;
+}
+.okvirići5{
+    width: 493px;
+    height: auto;
+    margin: -22px 20px ; /*JE NO DA POSTOJI NEGATIVNE MARGINE KJAAAJ*/
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 2px;
+    border-left: 3px solid gold;
+}
+.levi img{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 130px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.desni img{
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 130px;
+    width: 400px;
+    border: 2px solid black;
+}
+.okvirići33{
+    width: 440px;
+    height: auto;
+    margin: -22px 20px ;
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 2px;
+    border-right: 3px solid gold;
+}
+.okvirići44{
+    width: 520px;
+    height: auto;
+    margin: -22px 20px ; /*JE NO DA POSTOJI NEGATIVNE MARGINEasd KJAAAJ*/
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 2px;
+    border-right: 3px solid gold;
+}
+.okvirići55{
+    width: 493px;
+    height: auto;
+    margin: -22px 20px ; /*JE NO DA POSTOJI NEGATIVNE MARGINE KJAAAJ*/
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 2px;
+    border-right: 3px solid gold;
+}
+.levi img{
+    border-right: 3px solid gold;
+}
+.desni img{
+    border-left: 3px solid gold;
+}
+
+.okolochonkera{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(21, 255, 0, 0.492);
+    align-items: flex-start;
+}
+.chonker{
+    display: block;
+    margin: 30px auto;
+    width: 500px;
+    height: 300px;
+    border: 3px solid gold;
+    border-radius: 4px;
+    object-fit: cover;
+
 }
