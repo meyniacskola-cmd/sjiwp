@@ -254,6 +254,11 @@ h3{
     padding-bottom: 22px;
     border-radius: 4px;
     border: 2px solid rgba(255, 217, 0, 0.586);
+    transition: all 0.3s ease;
+}
+.levi:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(255, 217, 0, 0.67));
 }
 .desni{
     background-color: rgba(20, 20, 20, 0.7);
@@ -264,6 +269,11 @@ h3{
     align-items: flex-end;
     border-radius: 4px;
     border: 2px solid rgba(255, 217, 0, 0.586);
+    transition: all 0.3s ease;
+}
+.desni:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(255, 217, 0, 0.67));
 }
 .desni .okvir{
     align-items: flex-end; /*ovo mi je 4 godine trebalo da skuzim koji KURAC DELA*/ 
@@ -363,20 +373,258 @@ h3{
 }
 
 .okolochonkera{
-    padding-top: 30px;
+    padding: 20px;
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: rgba(21, 255, 0, 0.492);
-    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px auto 0;
+    border: 3px solid rgba(0, 0, 0, 0.444);
+    box-sizing: border-box;
 }
 .chonker{
     display: block;
     margin: 30px auto;
+    margin-bottom: 0;
     width: 500px;
     height: 300px;
-    border: 3px solid gold;
-    border-radius: 4px;
+    border-top: 4px solid green;
+    border-bottom: 4px solid rgb(15, 63, 218);
+    border-left: 4px solid violet;
+    border-right: 4px solid crimson;
     object-fit: cover;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);;
+}
+.okolochonkera h2{
+    margin-top: 20px;
+    color: azure;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 0 0 10px rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
+.resonanceholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* smanji razmake izmedu 3 diva */
+    margin: auto;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.resonancewrath{
+    background-color: rgba(20, 20, 20, 0.556);
+    border: 3px solid rgb(255, 0, 0);
+    box-shadow:  0px 0px 20px rgb(255, 0, 0);
+    display: flex;
+    height: auto;
+    flex: 0 0 calc((100% - 20px) / 3); /* tri diva sa malim razmakom da ovo mi je google ai napravil jer ovo einstein nebi skuzil koji KURAC MORA BIT TAK KOMPLICIRANO*/
+    margin: 20px 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.resonancewrath:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.67));
+}
+h2.wrath { /*blage veze nemam zakaj h2 MORA biti prije wrath klase al dobro sve pet jako sam sretan i zadovoljan svojom okupacijom*/
+    margin: 0;
+    padding: 9px;
+    text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px rgba(215, 54, 0, 0.4);
+    font-size: 33px;
+    color: red;
+    text-transform: uppercase;
+}
+
+.jebemtimaterhtml{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ikonice{
+    height: 50px;
+    width: 60px;
+    margin-top: 0;
+}
+
+.resonancelust{
+    background-color: rgba(20, 20, 20, 0.556);
+    border: 3px solid rgb(176, 73, 53);
+    box-shadow:  0px 0px 20px rgb(176, 73, 53);
+    display: flex;
+    height: auto;
+    flex: 0 0 calc((100% - 20px) / 3); /* tri diva sa malim razmakom da ovo mi je google ai napravil jer ovo einstein nebi skuzil koji KURAC MORA BIT TAK KOMPLICIRANO*/
+    margin: 20px 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.resonancelust:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(176, 73, 53, 0.67));
+}
+h2.lust { /*blage veze nemam zakaj h2 MORA biti prije lust klase al dobro sve pet jako sam sretan i zadovoljan svojom okupacijom*/
+    margin: 0;
+    padding: 9px;
+    text-shadow: 0 0 5px rgb(176, 73, 53), 0 0 10px rgba(176, 73, 53, 0.4);
+    font-size: 33px;
+    color: rgb(176, 73, 53);
+    text-transform: uppercase;
+}
+
+.resonancesloth{
+    background-color: rgba(20, 20, 20, 0.556);
+    border: 3px solid rgb(221, 161, 57);
+    box-shadow:  0px 0px 20px rgb(221, 161, 57);
+    display: flex;
+    height: auto;
+    flex: 0 0 calc((100% - 20px) / 3); /* tri diva sa malim razmakom da ovo mi je google ai napravil jer ovo einstein nebi skuzil koji KURAC MORA BIT TAK KOMPLICIRANO*/
+    margin: 20px 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.resonancesloth:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(221, 161, 57, 0.67));
+}
+h2.sloth { /*blage veze nemam zakaj h2 MORA biti prije sloth klase al dobro sve pet jako sam sretan i zadovoljan svojom okupacijom*/
+    margin: 0;
+    padding: 9px;
+    text-shadow: 0 0 5px rgb(221, 161, 57), 0 0 10px rgba(221, 161, 57, 0.4);
+    font-size: 33px;
+    color: rgb(221, 161, 57);
+    text-transform: uppercase;
+}
+
+.resonancegluttony{
+    background-color: rgba(20, 20, 20, 0.556);
+    border: 3px solid rgb(88, 126, 79);
+    box-shadow:  0px 0px 20px rgb(88, 126, 79);
+    display: flex;
+    height: auto;
+    flex: 0 0 calc((100% - 20px) / 3); /* tri diva sa malim razmakom da ovo mi je google ai napravil jer ovo einstein nebi skuzil koji KURAC MORA BIT TAK KOMPLICIRANO*/
+    margin: 20px 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.resonancegluttony:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(88, 126, 79, 0.67));
+}
+h2.gluttony { /*blage veze nemam zakaj h2 MORA biti prije gluttony klase al dobro sve pet jako sam sretan i zadovoljan svojom okupacijom*/
+    margin: 0;
+    padding: 9px;
+    text-shadow: 0 0 5px rgb(88, 126, 79), 0 0 10px rgba(88, 126, 79, 0.4);
+    font-size: 33px;
+    color: rgb(88, 126, 79);
+    text-transform: uppercase;
+}
+
+.resonancegloom{
+    background-color: rgba(20, 20, 20, 0.556);
+    border: 3px solid rgb(86, 142, 150);
+    box-shadow:  0px 0px 20px rgb(86, 142, 150);
+    display: flex;
+    height: auto;
+    flex: 0 0 calc((100% - 20px) / 3); /* tri diva sa malim razmakom da ovo mi je google ai napravil jer ovo einstein nebi skuzil koji KURAC MORA BIT TAK KOMPLICIRANO*/
+    margin: 20px 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.resonancegloom:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(86, 142, 150, 0.67));
+}
+h2.gloom { /*blage veze nemam zakaj h2 MORA biti prije gloom klase al dobro sve pet jako sam sretan i zadovoljan svojom okupacijom*/
+    margin: 0;
+    padding: 9px;
+    text-shadow: 0 0 5px rgb(86, 142, 150), 0 0 10px rgba(86, 142, 150, 0.4);
+    font-size: 33px;
+    color: rgb(86, 142, 150);
+    text-transform: uppercase;
+}
+
+.resonancepride{
+    background-color: rgba(20, 20, 20, 0.556);
+    border: 3px solid rgb(46, 85, 124);
+    box-shadow:  0px 0px 20px rgb(46, 85, 124);
+    display: flex;
+    height: auto;
+    flex: 0 0 calc((100% - 20px) / 3); /* tri diva sa malim razmakom da ovo mi je google ai napravil jer ovo einstein nebi skuzil koji KURAC MORA BIT TAK KOMPLICIRANO*/
+    margin: 20px 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.resonancepride:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(46, 85, 124, 0.67));
+}
+h2.pride { /*blage veze nemam zakaj h2 MORA biti prije pride klase al dobro sve pet jako sam sretan i zadovoljan svojom okupacijom*/
+    margin: 0;
+    padding: 9px;
+    text-shadow: 0 0 5px rgb(46, 85, 124), 0 0 10px rgba(46, 85, 124, 0.4);
+    font-size: 33px;
+    color: rgb(46, 85, 124);
+    text-transform: uppercase;
+}
+
+.resonanceenvy{
+    background-color: rgba(20, 20, 20, 0.556);
+    border: 3px solid rgb(117, 72, 128);
+    box-shadow:  0px 0px 20px rgb(117, 72, 128);
+    display: flex;
+    height: auto;
+    flex: 0 0 calc((100% - 20px) / 3); /* tri diva sa malim razmakom da ovo mi je google ai napravil jer ovo einstein nebi skuzil koji KURAC MORA BIT TAK KOMPLICIRANO*/
+    margin: 20px 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.resonanceenvy:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(117, 72, 128, 0.67));
+}
+h2.envy { /*blage veze nemam zakaj h2 MORA biti prije envy klase al dobro sve pet jako sam sretan i zadovoljan svojom okupacijom*/
+    margin: 0;
+    padding: 9px;
+    text-shadow: 0 0 5px rgb(117, 72, 128), 0 0 10px rgba(117, 72, 128, 0.4);
+    font-size: 33px;
+    color: rgb(117, 72, 128);
+    text-transform: uppercase;
+}
+
+.resonanceholder2{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* smanji razmake izmedu 3 diva */
+    margin: auto;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    gap: 200px;
+}
+
+.resonancedespair{
+    background-color: rgba(20, 20, 20, 0.556);
+    border: 3px solid rgb(55, 60, 65);
+    box-shadow:  0px 0px 20px rgb(55, 60, 65);
+    display: flex;
+    height: auto;
+    flex: 0 0 calc((100% - 20px) / 3); /* tri diva sa malim razmakom da ovo mi je google ai napravil jer ovo einstein nebi skuzil koji KURAC MORA BIT TAK KOMPLICIRANO*/
+    margin: 20px 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+.resonancedespair:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(55, 60, 65, 0.67));
+}
+h2.despair { /*blage veze nemam zakaj h2 MORA biti prije despair klase al dobro sve pet jako sam sretan i zadovoljan svojom okupacijom*/
+    margin: 0;
+    padding: 9px;
+    text-shadow: 0 0 5px rgb(55, 60, 65), 0 0 10px rgba(55, 60, 65, 0.4);
+    font-size: 33px;
+    color: rgb(55, 60, 65);
+    text-transform: uppercase;
 }
