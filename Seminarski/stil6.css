@@ -1,0 +1,417 @@
+body{
+    background-image: url(poz6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+}
+.overlay{
+    width: 1300px;
+    max-width: 1300px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(67, 67, 67, 0.31);
+    border: 3px solid rgba(0, 0, 0, 0.636);
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+}
+b{
+    font-weight: bolder;
+    color: gold;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.6), 0 0 10px rgba(212, 175, 55, 0.4);
+}
+h1{
+    color: azure;
+    text-align: center;
+    font-size: 38px;
+}
+h2{
+    color: rgb(225, 184, 0);
+    text-align: center;
+    font-size: 20px;
+}
+.h22{
+     color: azure;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.6), 0 0 10px rgba(212, 175, 55, 0.4);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.crtica{
+    width: 480px;
+    border: 1px black solid;
+}
+.lilnigga{
+    width: 500px;
+    height: 115px;
+    background-color: rgba(114, 114, 114, 0.29);
+    margin: 0 auto;
+    border-top: black 3px solid;
+    border-left: darkgrey 2px solid;
+    border-right: darkgrey 2px solid;
+    border-bottom: darkgrey 2px solid;
+    text-align: center;
+}
+.biralica{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  transform: skewX(-14deg);
+  transition: transform 0.3s ease;
+}
+.biralica:hover {
+  transform: skewX(-20deg) scale(1.05); 
+}
+.biralica li{
+    font-weight: bold;
+}
+.tobi{
+  background-color: rgba(20, 20, 19, 0.78);
+  border-top: 2px solid gold;
+  border-bottom: 2px solid gold;
+  width: 80%
+}
+.tobi ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0;
+}
+.tobi a {
+  color: gold;
+  display: inline-block;
+  text-decoration: none; /*AHA AK OV DENE ONDA NEMA ONIH CRTA ZMOTANIH ISPOD LINKOVA E*/
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-out;
+}
+.tobi a:hover {
+  color: white;
+  text-shadow: 0 0 8px gold;
+  transform: scale(1.15); 
+}
+.tobi li {
+  display: inline; /*ovo tocke mekne nekim cudom*/
+}
+
+.drzac3diva{
+    margin: 0 auto;
+    display: flex;
+    width: 95%;
+    gap: 10px;
+    flex-direction: column;
+    padding: 31px;
+    border: 2px solid black;
+}
+
+.prvi{
+    padding: 10px;
+    width: 49%;
+    flex: 1;
+    background-color: rgba(86, 86, 86, 0.249);
+    height: auto;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-left: 3px solid gold;
+}
+.drugi{
+    width: 49%;
+    flex: 1;
+    background-color: rgba(86, 86, 86, 0.249);
+    height: auto;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-right: 3px solid gold;
+    padding: 10px;
+}
+.prvidrugi{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+}
+.treci{
+    background-color: rgba(0, 0, 0, 0.429);
+    height: flex;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-top: 3px solid crimson;
+    padding: 10px;
+    transition: all 0.3s ease;
+        margin-top: 30px;
+}
+.treci:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(220, 20, 60, 0.515));
+}
+.treci3{
+    width: 26%;
+    background-color: rgba(0, 0, 0, 0.429);
+    height: flex;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-top: 3px solid crimson;
+    padding: 10px;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.treci3:hover{
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 15px rgba(220, 20, 60, 0.515));
+}
+.b2{
+    font-weight: bolder;
+    color: crimson;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.6), 0 0 10px rgba(255, 0, 0, 0.4);
+}
+.h33{
+    color: crimson;
+}
+.karta{
+    height: 200px;
+    width: 240px;
+    border: 2px solid crimson;
+}
+.okoslike{
+    display: flex;
+    gap: 23px;
+}
+.JOSJENJEBENIDIV{
+    width: 100%;
+    flex: 1;
+}
+.tritreca{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.canto-kontejner {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*koji kvurac kak ovo ipak dela*/
+    gap: 20px;
+    width: 95%;
+    margin: 30px auto;
+}
+.canto-kartica {
+    background-color: rgba(40, 40, 40, 0.6); 
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease;
+}
+.canto-kartica:hover {
+    transform: translateY(-5px); /*mrs kak bi ja trebal znati da je to Y os a ne X nismo se to ucili jos!!!!*/
+}
+
+.canto-gregor { border-left: 4px solid #c95123; }  /* da i ovo sve sam pital chat jer moram stepsti nijanse farba na decimalu ja sam ozbiljno ozbiljan o ovom prfesorice*/
+.canto-rodon { border-left: 4px solid #b71c1c; }
+.canto-sinclair { border-left: 5px solid #dfda54; }
+.canto-yi-sang { border-left: 5px solid #d4ccb6; } 
+.canto-ishmael { border-left: 5px solid #f48024; }  
+.canto-heathcliff { border-left: 5px solid #5d4037; }
+.canto-don-quixote { border-left: 5px solid #ffeb3b; } 
+.canto-hong-lu { border-left: 5px solid #00ecd2; }    
+.canto-ryoshu { border-left: 5px solid #880e4f; }
+
+.canto-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /*ovo je opasno tuffno*/
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.canto-brojkic {
+    color: crimson;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.canto-naslovic {
+    color: azure;
+    margin: 0;
+    font-size: 18px;
+}
+.canto-sinneric {
+    margin: 5px 0;
+}
+.canto-tekstic {
+    color: #e0e0e0;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.canto-kontejner .canto-kartica:nth-child(3n) { /*DA PITAL SAM CHAT DA MI OVO NAPRAVI JER NEMA SANSE DA BI BILO KO NA OVOM SVETU SKUZIL KAJ NTH CHILD DELA I DA JOS NEKAKVI TREBA DETI TU 3n kaj JE OVAJ HTMLCSS PONOREL*/
+    grid-column: span 2;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.facethesin {
+    background-color: #0b0202cb; 
+    border-top: 2px solid #900a0a; 
+    border-bottom: 2px solid #900a0a; 
+    text-align: center;
+    padding: 15px 0;
+    margin: 40px auto 20px auto;
+    width: 71%;
+}
+
+.facethesin p {
+    color: #a30e0e; 
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 0;
+    text-shadow: 0 0 8px rgba(163, 14, 14, 0.4); 
+}
+
+@media (max-width: 768px) {
+    html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    body .overlay {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: none;
+    }
+    .overlay h1 { 
+        font-size: 26px; 
+    }
+    .overlay .lilnigga {
+        width: 95%;
+        max-width: 95%;
+        height: auto;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .lilnigga .crtica {
+        width: 80%;
+    }
+    .overlay .biralica {
+        transform: none;
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .overlay .biralica:hover {
+        transform: none;
+    }
+    .biralica .tobi {
+        width: 100%;
+        max-width: 100%;
+    }
+    .tobi ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 0;
+    }
+    .overlay .drzac3diva {
+        width: 100%;
+        padding: 15px 5px;
+        box-sizing: border-box;
+        border-right: none;
+        border-left: none;
+    }
+    .drzac3diva .prvidrugi {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .prvidrugi .prvi, 
+    .prvidrugi .drugi {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        border-right: 2px solid black;
+        border-left: 3px solid gold;
+    }
+    .drzac3diva .treci {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .treci .okoslike {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .okoslike .karta {
+        width: 100%;
+        max-width: 260px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .okoslike .JOSJENJEBENIDIV {
+        width: 100%;
+        text-align: center;
+    }
+    .JOSJENJEBENIDIV .h33 {
+        text-align: center;
+        padding: 0 5px;
+    }
+    .drzac3diva .tritreca {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    .tritreca .treci3 {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .overlay .h22 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .overlay .canto-kontejner {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0 5px;
+        box-sizing: border-box;
+    }
+    .canto-kontejner .canto-kartica,
+    .canto-kontejner .canto-kartica:nth-child(3n) {
+        grid-column: span 1;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .canto-kartica .canto-header {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+    .canto-kartica .canto-sinneric,
+    .canto-kartica .canto-tekstic {
+        text-align: center;
+    }
+    .overlay .facethesin {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 30px auto 10px auto;
+    }
+    .facethesin p {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+}

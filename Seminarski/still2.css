@@ -203,3 +203,140 @@ h2{
   letter-spacing: 4px;
     padding-left: 27px;
 }
+
+
+@media (max-width: 768px) {
+    html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .overlay {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: none;
+    }
+    h1 { 
+        font-size: 24px; 
+        word-wrap: break-word;
+    }
+    .lilnigga {
+        width: 90%;
+        max-width: 90%;
+        height: auto; /* Prilagođava visinu količini teksta */
+        padding: 15px 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .crtica {
+        width: 80%;
+    }
+    .biralica {
+        transform: none;
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .biralica:hover {
+        transform: none;
+    }
+    .tobi {
+        width: 100%;
+        max-width: 100%;
+    }
+    .tobi ul {
+        flex-direction: column; /* Slaganje linkova jedan ispod drugog */
+        align-items: center;
+        gap: 15px;
+        padding: 15px 0;
+    }
+    .tobi a {
+        font-size: 1.2rem;
+    }
+    .slik {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .okvir {
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        gap: 15px;
+        padding: 10px 0;
+    }
+    .okvirići {
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .nekivrag {
+        width: 100%;
+        max-width: 100%;
+        transform: none;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .okvirprdonja {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        gap: 15px;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .sinnah {
+        width: 150px;
+        height: auto;
+    }
+    .omot {
+        width: 100%;
+        margin-left: 0;
+        padding: 15px 5px;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .h22 { 
+        font-size: 22px; 
+        padding-left: 0; 
+    }
+    .h11 { 
+        font-size: 15px; 
+        padding-left: 0; 
+    }
+    .oruze {
+        margin: 0 auto;
+        width: 100%;
+        padding: 15px 0;
+        border-right: none;
+        border-bottom: 3px solid gold;
+        box-sizing: border-box;
+    }
+    .okvirprdonja > .oruze:first-child {
+        margin: 0 auto;
+    }
+    .oruz-naslov { 
+        padding-left: 0; 
+        text-align: center; 
+    }
+    .oruz-ime { 
+        padding-left: 0; 
+        text-align: center; 
+    }
+    .face-the-sin { 
+        width: 100%; 
+        box-sizing: border-box;
+    }
+    .face-the-sin p { 
+        font-size: 16px; 
+        letter-spacing: 2px;
+    }
+}

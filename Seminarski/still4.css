@@ -550,3 +550,177 @@ div.teth {
   transition: all 0.3s ease;
   background-color: rgba(235, 12, 12, 0.200);
 }
+
+
+@media (max-width: 768px) {
+    html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    body .overlay {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: none;
+    }
+    .overlay h1 { 
+        font-size: 26px; 
+    }
+    .overlay .lilnigga {
+        width: 95%;
+        max-width: 95%;
+        height: auto;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .lilnigga .crtica {
+        width: 80%;
+    }
+    .overlay .biralica {
+        transform: none;
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .overlay .biralica:hover {
+        transform: none;
+    }
+    .biralica .tobi {
+        width: 100%;
+        max-width: 100%;
+    }
+    .tobi ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 0;
+    }
+    .overlay .okviritina {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        gap: 15px;
+        border-left: none;
+        border-right: none;
+    }
+    .okviritina .okvir {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .okvir .okvirići {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .overlay .nekivrag {
+        width: 100%;
+        max-width: 100%;
+        transform: none;
+        box-sizing: border-box;
+        font-size: 14px;
+        margin: 30px auto;
+    }
+    .overlay .zayin, 
+    .overlay .teth, 
+    .overlay .he,
+    .overlay .waw,
+    .overlay .aleph {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 65px 10px 20px 10px;
+        gap: 20px;
+        transform: none;
+        border-left: 3px solid;
+        border-right: 3px solid;
+    }
+    .overlay .zayin:hover, 
+    .overlay .teth:hover, 
+    .overlay .he:hover,
+    .overlay .waw:hover,
+    .overlay .aleph:hover {
+        transform: none;
+    }
+    .zayin .pzayin, 
+    .teth .pteth, 
+    .he .phe,
+    .waw .pwaw,
+    .aleph .paleph {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        margin: 0;
+        transform: none;
+    }
+    .zayin .tekst1, .zayin .tekst2,
+    .teth .tekst1, .teth .tekst2,
+    .he .tekst1, .he .tekst2,
+    .waw .tekst1, .waw .tekst2,
+    .aleph .tekst1, .aleph .tekst2 {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .waw .tekst1 h2, .waw .tekst2 h2,
+    .aleph .tekst1 h2, .aleph .tekst2 h2,
+    .tekst1 h2, .tekst2 h2 {
+        text-align: center;
+        font-size: 18px;
+        transform: none;
+    }
+    .waw h3, .aleph h3, h2,
+    .tekst1 h3, .tekst2 h3 {
+        text-align: center;
+        font-size: 15px;
+        transform: none;
+    }
+    .zayin .gifaci, 
+    .teth .gifaci, 
+    .he .gifaci,
+    .waw .gifaci,
+    .aleph .gifaci {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+        align-items: center;
+        transform: none;
+    }
+    .gifaci .tenor-gif-embed {
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+        transform: none;
+    }
+    .waw .tenor-gif-embed,
+    .aleph .tenor-gif-embed {
+        margin-bottom: 0;
+    }
+    .overlay .crtuh1, 
+    .overlay .crtuh2,
+    .overlay .crtuh3,
+    .overlay .crtuh4 {
+        width: 80%;
+        margin: 24px auto;
+    }
+    .overlay .face-the-sin {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 30px auto 10px auto;
+    }
+    .face-the-sin p {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+}
